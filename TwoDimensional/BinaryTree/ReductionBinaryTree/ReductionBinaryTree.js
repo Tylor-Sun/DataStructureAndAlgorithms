@@ -8,6 +8,7 @@ function Node(value) {
     this.right = null;
 }
 
+// 根据先序中序还原
 function reductionBinaryTree_1(firstArr, midArr) {
     if (firstArr == null || midArr == null || firstArr.length == 0 || midArr.length == 0 || firstArr.length != midArr.length) return null;
     var root = new Node(firstArr[0]);
@@ -27,6 +28,7 @@ console.log(res.left)
 console.log(res.right)
 console.log('====================================================')
 
+// 根据后序、中序还原
 function reductionBinaryTree_2(lastArr, midArr) {
     if (lastArr == null || midArr == null || lastArr.length == 0 || midArr.length == 0 || lastArr.length != midArr.length) return null;
     var root = new Node(lastArr[lastArr.length - 1]);

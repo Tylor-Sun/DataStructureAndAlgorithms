@@ -1,4 +1,4 @@
-var root = require('./BinaryTree')
+var root = require('../BinaryTree')
 
 // 深度优先搜索
 function DeepFirstSearch(root, target) {

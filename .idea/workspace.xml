@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42ebd7ea-4b37-405a-bb23-7c81038ce70b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/CampareBianryTree/CompareBinaryTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array.js" beforeDir="false" afterPath="$PROJECT_DIR$/OneDimensinonal/ArrayList/Array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/冒泡排序.js" beforeDir="false" afterPath="$PROJECT_DIR$/OneDimensinonal/ArrayList/BubbleSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/快速排序-标准版.js" beforeDir="false" afterPath="$PROJECT_DIR$/OneDimensinonal/ArrayList/QuickSort-Standard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/快速排序-简单版.js" beforeDir="false" afterPath="$PROJECT_DIR$/OneDimensinonal/ArrayList/QuickSort-Easy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/选择排序.js" beforeDir="false" afterPath="$PROJECT_DIR$/OneDimensinonal/ArrayList/SelectSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/BinaryTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinaryTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/BreadthFirstList.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/SearchBianryTree/BreadthFirstList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/DeepFirstSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/SearchBianryTree/DeepFirstSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/ErgodicBinaryTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/ErgodicBinaryTree/ErgodicBinaryTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/ReductionBinaryTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/ReductionBinaryTree/ReductionBinaryTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/compareBinaryTree_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkList/DoubleLinkList.js" beforeDir="false" afterPath="$PROJECT_DIR$/OneDimensinonal/LinkList/DoubleLinkList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkList/InvertLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/OneDimensinonal/LinkList/InvertLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkList/LinkList.js" beforeDir="false" afterPath="$PROJECT_DIR$/OneDimensinonal/LinkList/LinkList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack&amp;Queue/Stack&amp;Queue.js" beforeDir="false" afterPath="$PROJECT_DIR$/OneDimensinonal/Stack&amp;Queue/Stack&amp;Queue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDimensionalDataStructure.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/TwoDimensionalDataStructure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +37,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Myitem\DataStructureandAlgorithms\TwoDimensional" />
+      <recent name="D:\Myitem\DataStructureandAlgorithms\OneDimensinonal" />
+      <recent name="D:\Myitem\DataStructureandAlgorithms\ArrayList" />
+      <recent name="D:\Myitem\DataStructureandAlgorithms\BinaryTree\ReductionBinaryTree" />
+      <recent name="D:\Myitem\DataStructureandAlgorithms\BinaryTree\ErgodicBinaryTree" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -30,6 +60,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Node.js.ErgodicBinaryTree.js">
+    <configuration name="CompareBinaryTree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/CampareBianryTree/CompareBinaryTree.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree">
+      <method v="2" />
+    </configuration>
+    <configuration name="ErgodicBinaryTree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/ErgodicBinaryTree/ErgodicBinaryTree.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.ErgodicBinaryTree.js" />
+        <item itemvalue="Node.js.CompareBinaryTree.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -40,7 +84,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571931904687</updated>
-      <workItem from="1571931912374" duration="873000" />
+      <workItem from="1571931912374" duration="1164000" />
+      <workItem from="1572017068195" duration="38000" />
+      <workItem from="1572052077600" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="feat:数组、链表、二叉树的一些基本算法">
       <created>1571932637242</created>
@@ -49,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571932637242</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat:修改了readme">
+      <created>1571932824410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571932824410</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -60,7 +113,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -68,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat:数组、链表、二叉树的一些基本算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:数组、链表、二叉树的一些基本算法" />
+    <MESSAGE value="feat:修改了readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:修改了readme" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-var root = require('./BinaryTree')
+var root = require('../BinaryTree')
 // BFS 广度优先搜索
 function BreadthFirstSearch(rootList, target) {
     if (rootList == null || rootList.length == 0) return false;

@@ -18,8 +18,8 @@ function quickSort_2(arr, begin, end){
     quickSort_2(arr, begin, swapPoint);
     quickSort_2(arr, swapPoint + 1, end);
 }
-function quickSort_1(arr){
+function quickSortStandard(arr){
     quickSort_2(arr, 0, arr.length); // 左闭右开
 }
-quickSort_1(arr);
+quickSortStandard(arr);
 console.log(arr)//[ 1, 2, 3, 4, 6, 7, 8, 9 ]
