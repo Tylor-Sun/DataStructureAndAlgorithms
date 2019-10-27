@@ -1,3 +1,8 @@
+/**
+ *
+ * @param value
+ * @constructor
+ */
 function Node(value) {
     this.value = value;
     this.left = null;
@@ -23,6 +28,11 @@ c.right = g;
 d.left = h;
 // d.right = i;
 
+/**
+ *
+ * @param root
+ * @returns {number}
+ */
 function getDeep(root) {
     if(root == null) return 0;
     const leftDeep = getDeep(root.left);
@@ -30,6 +40,11 @@ function getDeep(root) {
     return Math.max(leftDeep, rightDeep) + 1;
 }
 
+/**
+ *
+ * @param root
+ * @returns {boolean|boolean|*}
+ */
 function isBalanceBinaryTree(root) {
     if(root == null) return true;
     const leftHeight = getDeep(root.left);
@@ -38,4 +53,9 @@ function isBalanceBinaryTree(root) {
     else return  isBalanceBinaryTree(root.left) && isBalanceBinaryTree(root.right);
 }
 
-console.log(isBalanceBinaryTree(a))// false
+// console.log(isBalanceBinaryTree(a))// false
+
+module.exports = {
+    getDeep,
+    isBalanceBinaryTree
+};

@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42ebd7ea-4b37-405a-bb23-7c81038ce70b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BBTSingleRotate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/IsBalanceBinaryTree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/BinarySearchTree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/SearchBST.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/CampareBianryTree/Diff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/kruskal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/prim.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/SearchBianryTree/BreadthFirstList.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/SearchBianryTree/BreadthFirstList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTSingleRotate.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTSingleRotate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/IsBalanceBinaryTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/IsBalanceBinaryTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/kruskal.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/kruskal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/prim.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/prim.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +54,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.IsBalanceBinaryTree.js">
+  <component name="RunManager" selected="Node.js.BTSingleRotate.js">
+    <configuration name="BTSingleRotate.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTSingleRotate.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree">
+      <method v="2" />
+    </configuration>
     <configuration name="BinarySearchTree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/BinarySearchTree.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree">
       <method v="2" />
     </configuration>
@@ -73,16 +70,13 @@
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/index.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree">
       <method v="2" />
     </configuration>
-    <configuration name="kruskal.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/kruskal.js" working-dir="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.BTSingleRotate.js" />
         <item itemvalue="Node.js.IsBalanceBinaryTree.js" />
         <item itemvalue="Node.js.BreadthFirstList.js" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.BinarySearchTree.js" />
-        <item itemvalue="Node.js.kruskal.js" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +97,7 @@
       <workItem from="1572134353499" duration="3097000" />
       <workItem from="1572139113116" duration="282000" />
       <workItem from="1572139437612" duration="43000" />
-      <workItem from="1572148266375" duration="15309000" />
+      <workItem from="1572148266375" duration="21351000" />
     </task>
     <task id="LOCAL-00001" summary="feat:数组、链表、二叉树的一些基本算法">
       <created>1571932637242</created>
@@ -133,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572054830330</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat:add BST BBT kruskal prim..">
+      <created>1572182137297</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572182137297</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +183,7 @@
     <MESSAGE value="feat:数组、链表、二叉树的一些基本算法" />
     <MESSAGE value="feat:调整了文件结构新增了二叉树的比较" />
     <MESSAGE value="feat:修改了readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="feat:add BST BBT kruskal prim.." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:add BST BBT kruskal prim.." />
   </component>
 </project>

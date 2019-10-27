@@ -20,7 +20,13 @@ var distance = [    // 边集
 var pointSet = [];
 pointSet.push(a, b, c, d, e);
 
-
+/**
+ *
+ * @param gatherArr
+ * @param tempBegin
+ * @param tempEnd
+ * @returns {boolean}
+ */
 function canLink(gatherArr, tempBegin, tempEnd) { // 连接条件判断
     var beginGather = null; // 起点集合
     var endGather = null; // 终点集合
@@ -42,6 +48,12 @@ function canLink(gatherArr, tempBegin, tempEnd) { // 连接条件判断
     return true;
 }
 
+/**
+ *
+ * @param gatherArr
+ * @param tempBegin
+ * @param tempEnd
+ */
 function link(gatherArr, tempBegin, tempEnd) { // 关联两点
     var beginGather = null; // 起点集合
     var endGather = null; // 终点集合
@@ -74,6 +86,11 @@ function link(gatherArr, tempBegin, tempEnd) { // 关联两点
     tempEnd.neighbor.push(tempBegin);
 }
 
+/**
+ *
+ * @param pointSet
+ * @param distance
+ */
 function kruskal(pointSet, distance) {
     var gatherArr = []; // 由集合构成的数组-二维数组
     while (true) {

@@ -1,4 +1,9 @@
 // Graph结构声明
+/**
+ *
+ * @param value
+ * @constructor
+ */
 function Node(value) {
     this.value = value;
     this.neighbor = [];
@@ -23,6 +28,11 @@ const pointSet = []; // 点集
 pointSet.splice(0, 0, A, B, C, D, E) //向点集中添加点
 
 // MST实现
+/**
+ *
+ * @param str
+ * @returns {number}
+ */
 function getIndex (str) {
     for(let i = 0; i < pointSet.length; i ++) {
         if(str === pointSet[i].value) return i;
@@ -30,6 +40,13 @@ function getIndex (str) {
     return -1;
 }
 
+/**
+ *
+ * @param pointSet
+ * @param distance
+ * @param nowPointSet
+ * @returns {Node}
+ */
 function getMinDisNode(pointSet, distance, nowPointSet) { // 根据已有节点集合获取最小代价的边
     let startNode = new Node(); // 起点
     let minDisNode = new Node(); // 终点
@@ -50,6 +67,13 @@ function getMinDisNode(pointSet, distance, nowPointSet) { // 根据已有节点�
     return minDisNode;
 }
 
+/**
+ *
+ * @param pointSet
+ * @param distance
+ * @param start
+ * @returns {[]}
+ */
 function prim(pointSet, distance, start) {// 普利姆算法
     var nowPointSet = []; // 最小生成树的结果点集
     nowPointSet.push(start); // 将起始点放入结果集内
