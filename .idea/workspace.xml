@@ -5,9 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTSingleRotate.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTSingleRotate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/IsBalanceBinaryTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/IsBalanceBinaryTree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/kruskal.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/kruskal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/prim.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/prim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/SearchBianryTree/BreadthFirstList.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch/BreadthFirstList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/SearchBianryTree/DeepFirstSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch/DeepFirstSearch.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
     <configuration name="BinarySearchTree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/BinarySearchTree.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree">
       <method v="2" />
     </configuration>
-    <configuration name="BreadthFirstList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/SearchBianryTree/BreadthFirstList.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/SearchBianryTree">
+    <configuration name="BreadthFirstList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch/BreadthFirstList.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch">
       <method v="2" />
     </configuration>
     <configuration name="IsBalanceBinaryTree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/IsBalanceBinaryTree.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree">
@@ -97,7 +96,7 @@
       <workItem from="1572134353499" duration="3097000" />
       <workItem from="1572139113116" duration="282000" />
       <workItem from="1572139437612" duration="43000" />
-      <workItem from="1572148266375" duration="21351000" />
+      <workItem from="1572148266375" duration="22098000" />
     </task>
     <task id="LOCAL-00001" summary="feat:数组、链表、二叉树的一些基本算法">
       <created>1571932637242</created>
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572182137297</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat:add rotateBinaryTree">
+      <created>1572190664265</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572190664265</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +190,7 @@
     <MESSAGE value="feat:调整了文件结构新增了二叉树的比较" />
     <MESSAGE value="feat:修改了readme" />
     <MESSAGE value="feat:add BST BBT kruskal prim.." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:add BST BBT kruskal prim.." />
+    <MESSAGE value="feat:add rotateBinaryTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:add rotateBinaryTree" />
   </component>
 </project>

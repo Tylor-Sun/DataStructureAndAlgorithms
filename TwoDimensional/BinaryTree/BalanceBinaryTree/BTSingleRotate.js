@@ -77,7 +77,6 @@ function transformToBBT(root) { // 返回平衡之后的节点
     }else { // 右子树深、左子树浅 ->  左单旋
         return rotateRight(root);
     }
-
 }
 
 console.log(transformToBBT(node2))
