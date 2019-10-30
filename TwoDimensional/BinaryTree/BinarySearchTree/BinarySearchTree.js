@@ -25,6 +25,12 @@ function addNode(root, num) {
     }
 }
 
+/**
+ *
+ * @param arr
+ * @returns {Node|null}
+ * @constructor
+ */
 function BinarySearchTree(arr) {
     if(arr == null || arr.length == 0) return null;
     var root = new Node(arr[0])

@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42ebd7ea-4b37-405a-bb23-7c81038ce70b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/Fibonacci.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/FrogsJump_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/FrogsJump_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTDoubleRotate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTDoubleRotate_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch/BFS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch/DFS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoDimensional/Tree/BreadthFirstSearch-BFS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoDimensional/Tree/DeepFirstSearch-DFS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTSingleRotate.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTSingleRotate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/SearchBianryTree/BreadthFirstList.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch/BreadthFirstList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/SearchBianryTree/DeepFirstSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch/DeepFirstSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch/BreadthFirstList.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch/BreadthFirstSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/BinarySearchTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/BinarySearchTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,29 +64,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.BTSingleRotate.js">
-    <configuration name="BTSingleRotate.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTSingleRotate.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree">
+  <component name="RunManager" selected="Node.js.Fibonacci.js">
+    <configuration name="BFS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch/BFS.js" working-dir="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch">
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/BinarySearchTree.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree">
+    <configuration name="BreadthFirstSearch-BFS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/Tree/BreadthFirstSearch-BFS.js" working-dir="$PROJECT_DIR$/TwoDimensional/Tree">
       <method v="2" />
     </configuration>
-    <configuration name="BreadthFirstList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch/BreadthFirstList.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch">
+    <configuration name="DFS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch/DFS.js" working-dir="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch">
       <method v="2" />
     </configuration>
-    <configuration name="IsBalanceBinaryTree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/IsBalanceBinaryTree.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree">
+    <configuration name="DeepFirstSearch-DFS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/Tree/DeepFirstSearch-DFS.js" working-dir="$PROJECT_DIR$/TwoDimensional/Tree">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/index.js" working-dir="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree">
+    <configuration name="Fibonacci.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DynamicProgramming/Fibonacci.js" working-dir="$PROJECT_DIR$/DynamicProgramming">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.BTSingleRotate.js" />
-        <item itemvalue="Node.js.IsBalanceBinaryTree.js" />
-        <item itemvalue="Node.js.BreadthFirstList.js" />
-        <item itemvalue="Node.js.index.js" />
-        <item itemvalue="Node.js.BinarySearchTree.js" />
+        <item itemvalue="Node.js.Fibonacci.js" />
+        <item itemvalue="Node.js.DFS.js" />
+        <item itemvalue="Node.js.BFS.js" />
+        <item itemvalue="Node.js.DeepFirstSearch-DFS.js" />
+        <item itemvalue="Node.js.BreadthFirstSearch-BFS.js" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +107,10 @@
       <workItem from="1572134353499" duration="3097000" />
       <workItem from="1572139113116" duration="282000" />
       <workItem from="1572139437612" duration="43000" />
-      <workItem from="1572148266375" duration="22098000" />
+      <workItem from="1572148266375" duration="22168000" />
+      <workItem from="1572264428601" duration="7710000" />
+      <workItem from="1572350744037" duration="4922000" />
+      <workItem from="1572439861760" duration="8507000" />
     </task>
     <task id="LOCAL-00001" summary="feat:数组、链表、二叉树的一些基本算法">
       <created>1571932637242</created>
@@ -140,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572190664265</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat:modify readme">
+      <created>1572191317594</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572191317594</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +212,7 @@
     <MESSAGE value="feat:修改了readme" />
     <MESSAGE value="feat:add BST BBT kruskal prim.." />
     <MESSAGE value="feat:add rotateBinaryTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:add rotateBinaryTree" />
+    <MESSAGE value="feat:modify readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:modify readme" />
   </component>
 </project>

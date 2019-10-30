@@ -1,9 +1,5 @@
-
-var isBalance = require('./IsBalanceBinaryTree').isBalanceBinaryTree; // 平衡二叉树判断函数
-
-var getDeep = require('./IsBalanceBinaryTree').getDeep; // 获取子树深度函数
-
-
+const isBalance = require('./IsBalanceBinaryTree').isBalanceBinaryTree; // 平衡二叉树判断函数
+const getDeep = require('./IsBalanceBinaryTree').getDeep; // 获取子树深度函数
 
 function Node(value) {
     this.value = value;
@@ -11,10 +7,10 @@ function Node(value) {
     this.right = null;
 }
 
-var node2 = new Node('2')
-var node5 = new Node('5')
-var node6 = new Node('6')
-var node8 = new Node('8')
+const node2 = new Node('2')
+const node5 = new Node('5')
+const node6 = new Node('6')
+const node8 = new Node('8')
 
 node2.right = node5;
 node5.left = node6;
@@ -27,9 +23,9 @@ node5.right = node8;
  */
 function rotateLeft(root) {
     // 找到新根：根节点的右孩子
-    var newRoot = root.right;
+    const newRoot = root.right;
     // 找到变化分支：根节点的右孩子的左子树
-    var changeBranch = root.right.left;
+    const changeBranch = root.right.left;
     // 让旋转节点的右子树为变化分支
     root.right = changeBranch;
     // 让新根的左孩子为旋转节点
@@ -37,7 +33,6 @@ function rotateLeft(root) {
     // 返回新根
     return newRoot;
 }
-
 /**
  * 右单旋
  * @param root
@@ -45,9 +40,9 @@ function rotateLeft(root) {
  */
 function rotateRight(root) {
     // 找到新根：为根节点的左孩子
-    var newRoot = root.left;
+    const newRoot = root.left;
     // 找到变化分支：根节点的左孩子的右子树
-    var changeBranch = root.left.right;
+    const changeBranch = root.left.right;
     // 让旋转节点的左子树为变化分支
     root.left = changeBranch;
     // 让新根的右孩子为旋转节点
@@ -59,24 +54,28 @@ function rotateRight(root) {
 /**
  * 二叉树的旋转
  * @param root
- * @returns {*}
+ * @returns root
  */
 function transformToBBT(root) { // 返回平衡之后的节点
     if(isBalance(root)) return root; // 递归出口+严谨判断：直到是平衡树后返回根节点
-    // 二叉树的旋转应该是自底向上 -> 因为整棵树的不平衡有可能因为底部的一棵子树不平衡导致的
+    // 二叉树的旋转应该是自底向上（后序遍历） -> 因为整棵树的不平衡有可能因为底部的一棵子树不平衡导致的
     // 如果是这种情况，只需要改变这颗子树即可，不用该变整棵树，而是只改变了树的一部分提高了性能
     // 由于树的旋转是自底向上，所以应该将当前节点置为树底，再根据条件判断是否需要旋转
     if(root.left != null) root.left = transformToBBT(root.left); // 改变左子树
     if(root.right != null) root.right = transformToBBT(root.right); // 改变右子树
-    var leftDeep = getDeep(root.left);
-    var rightDeep = getDeep(root.right);
+    const leftDeep = getDeep(root.left);
+    const rightDeep = getDeep(root.right);
     if(Math.abs(leftDeep - rightDeep) < 2) { // 此时该根节点所在的树是平衡二叉树
-        return true;
+        return root;
     }else if(leftDeep > rightDeep) { // 左子树深、右子树浅 -> 右单旋
-        return rotateLeft(root)
+        return rotateRight(root)
     }else { // 右子树深、左子树浅 ->  左单旋
-        return rotateRight(root);
+        return rotateLeft(root)
     }
 }
 
-console.log(transformToBBT(node2))
+console.log(isBalance(node2));// false 不平衡
+const newRoot = transformToBBT(node2) // 旋转返回新的根节点
+
+console.log(newRoot)
+console.log(isBalance(newRoot)) // true 平衡
