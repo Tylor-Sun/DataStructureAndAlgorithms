@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42ebd7ea-4b37-405a-bb23-7c81038ce70b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/Fibonacci.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/FrogsJump_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/FrogsJump_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTDoubleRotate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTDoubleRotate_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch/BFS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch/DFS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/Tree/BreadthFirstSearch-BFS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoDimensional/Tree/DeepFirstSearch-DFS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DataStructureandAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructureAndAlgorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTSingleRotate.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BalanceBinaryTree/BTSingleRotate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch/BreadthFirstList.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BianryTreeSearch/BreadthFirstSearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/BinarySearchTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/BinarySearchTree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/BinaryTree/BinarySearchTree/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/FrogsJump_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/FrogsJump_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/kruskal.js" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree/kruskal.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,29 +53,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Fibonacci.js">
+  <component name="RunManager" selected="Node.js.kruskal.js">
     <configuration name="BFS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch/BFS.js" working-dir="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch">
-      <method v="2" />
-    </configuration>
-    <configuration name="BreadthFirstSearch-BFS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/Tree/BreadthFirstSearch-BFS.js" working-dir="$PROJECT_DIR$/TwoDimensional/Tree">
       <method v="2" />
     </configuration>
     <configuration name="DFS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch/DFS.js" working-dir="$PROJECT_DIR$/TwoDimensional/Graph/GraphSearch">
       <method v="2" />
     </configuration>
-    <configuration name="DeepFirstSearch-DFS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TwoDimensional/Tree/DeepFirstSearch-DFS.js" working-dir="$PROJECT_DIR$/TwoDimensional/Tree">
+    <configuration name="Fibonacci.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DynamicProgramming/Fibonacci.js" working-dir="$PROJECT_DIR$/DynamicProgramming">
       <method v="2" />
     </configuration>
-    <configuration name="Fibonacci.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DynamicProgramming/Fibonacci.js" working-dir="$PROJECT_DIR$/DynamicProgramming">
+    <configuration name="FrogsJump_2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="FrogsJump_2.js" working-dir="$PROJECT_DIR$/DynamicProgramming">
+      <method v="2" />
+    </configuration>
+    <configuration name="kruskal.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="kruskal.js" working-dir="$PROJECT_DIR$/TwoDimensional/Graph/MinmumSpanningTree">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.kruskal.js" />
+        <item itemvalue="Node.js.FrogsJump_2.js" />
         <item itemvalue="Node.js.Fibonacci.js" />
         <item itemvalue="Node.js.DFS.js" />
         <item itemvalue="Node.js.BFS.js" />
-        <item itemvalue="Node.js.DeepFirstSearch-DFS.js" />
-        <item itemvalue="Node.js.BreadthFirstSearch-BFS.js" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +100,7 @@
       <workItem from="1572264428601" duration="7710000" />
       <workItem from="1572350744037" duration="4922000" />
       <workItem from="1572439861760" duration="8507000" />
+      <workItem from="1572512479930" duration="1299000" />
     </task>
     <task id="LOCAL-00001" summary="feat:数组、链表、二叉树的一些基本算法">
       <created>1571932637242</created>

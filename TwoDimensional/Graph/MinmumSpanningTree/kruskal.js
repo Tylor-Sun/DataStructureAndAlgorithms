@@ -101,7 +101,6 @@ function kruskal(pointSet, distance) {
             for (var j = 0; j < distance[i].length; j++) {
                 var tempBegin = pointSet[i]; // 起点临时变量
                 var tempEnd = pointSet[j]; // 终点临时变量
-                console.log(i, j, pointSet[i],pointSet[j])
                 if(i != j && distance[i][j] < minDis && canLink(gatherArr, tempBegin, tempEnd)) {
                     minDis = distance[i][j];
                     begin = tempBegin;
